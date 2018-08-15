@@ -1,0 +1,15 @@
+{
+  "/api": {
+    "target": "https://dev.ebaocloud.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin":true
+  },
+  "/cas": {
+    "target": "https://dev.ebaocloud.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin":true
+  }
+}
+
