@@ -462,6 +462,10 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/amdefine/download/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+angular-in-memory-web-api@^0.6.1:
+  version "0.6.1"
+  resolved "http://registry.npm.taobao.org/angular-in-memory-web-api/download/angular-in-memory-web-api-0.6.1.tgz#d1eb1849517fe60487c2287388606bf1c4f84dfb"
+
 ansi-html@0.0.7:
   version "0.0.7"
   resolved "http://registry.npm.taobao.org/ansi-html/download/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"

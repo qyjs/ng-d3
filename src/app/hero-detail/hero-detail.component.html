@@ -1,13 +1,22 @@
 <div *ngIf="hero">
-	<mat-form-field class="example-form-field">
+	<!-- <mat-form-field class="example-form-field">
 	  <input matInput type="text" placeholder="Clearable input" [(ngModel)]="hero.name">
 	  <button mat-button *ngIf="hero.name" matSuffix mat-icon-button aria-label="Clear" (click)="hero.name=''">
 	    <mat-icon>close</mat-icon>
 	  </button>
-	</mat-form-field>
+	</mat-form-field> -->
 
-	<div>
+	<!-- <div>
 	  <h2>{{hero.id}}</h2>
 	  <h2>{{hero.name | uppercase}}</h2>
+	</div> -->
+	<div class="grid grid-pad">
+		<div class="module hero" *ngFor="let item of this.hero.body.items" class="col-1-4">
+			<h4>{{item.advertisementName}}:</h4>
+			<img style="width: 10%;" [src]=" '/api/admin-service'+ item.image" alt="">
+		</div>
 	</div>
 </div>
+
+<button (click)="goBack()">go back</button>
+<button (click)="save()">save</button>
